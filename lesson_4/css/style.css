@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Creepster:regular);
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+	line-height: 2;
+	text-align: center;
+	color: #2b2929;
+}
+
+.title {
+	text-shadow: 10px 5px 20px rgb(34, 2, 109);
+	font-size: 64px;
+	font-weight: 600;
+}
+
+.head {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.cos_1 {
+	font-family: Creepster;
+	text-decoration: underline;
+}
+.cos_2 {
+	font-weight: 600;
+}
+.cos_3 {
+	font-weight: 300;
+	color: rgb(9, 25, 168);
+	text-decoration: overline;
+	font-family: Amatic SC;
+	font-size: 20px;
+}
+.item_1 {
+	text-decoration: line-through;
+	text-decoration-color: greenyellow;
+	text-decoration-style: dashed;
+	text-align: left;
+}
+.item_2 {
+	text-align: right;
+	color: green;
+}
+
+span {
+	font-weight: 600;
+}
+.navigation {
+	font-size: 48px;
+	font-weight: 600;
+	color: teal;
+}
+.cos_4 {
+	text-shadow:
+		2px 2px 5px #000,
+		6px -3px 8px green;
+}
+.cos_5 {
+	font-size: 25px;
+	line-height: 1.25;
+	font-family: Creepster;
+}
+
+.title_rovato {
+	font-size: 40px;
+	font-style: normal;
+	line-height: 48px;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.text_l {
+	font-size: 16px;
+	font-style: normal;
+	text-align: left;
+	line-height: 30px;
+	letter-spacing: 0;
+}
+.krovato {
+	text-align: left;
+}
+.vitalnya {
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+	letter-spacing: 0;
+}
+.corobochka {
+	letter-spacing: 0;
+}
+.ligka {
+	color: #2b2929;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 600;
+}
+.vydy {
+	font-size: 20px;
+	font-style: normal;
+	text-align: left;
+	font-weight: 600;
+	line-height: 28px;
+}
+.mark {
+	font-size: 64px;
+}
