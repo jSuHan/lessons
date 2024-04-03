@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:regular,500,700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	text-align: left;
+	line-height: 1;
+	height: 100%;
+}
+.navigation {
+	text-align: center;
+}
+.up {
+	font-size: 64px;
+	margin-bottom: 114px;
+}
+.mark {
+	display: block;
+	text-align: center;
+	font-size: 60px;
+	line-height: 150%;
+}
+.page {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+/* домашка */
+/* about me saction  */
+.abme__saction {
+	max-width: 100%;
+	background-color: #040303;
+}
+.me__container {
+	max-width: 1512px;
+	padding: 120px 181px;
+	color: #fff;
+	font-family: Exo, sans-serif;
+	margin: 0px auto;
+}
+.me__block {
+	text-align: center;
+	max-width: 992px;
+	margin: 0px auto;
+}
+.subtitle_block {
+	max-width: 40.4%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+.sub-tittle {
+	font-size: 60px;
+	line-height: 1.17;
+	text-transform: uppercase;
+	display: inline-block;
+	max-width: 75%;
+	font-weight: 700;
+}
+.subtitle_block::after {
+	display: block;
+	margin-top: 20px;
+	max-width: 133%;
+	height: 1px;
+	content: "";
+	background: linear-gradient(90deg, rgba(245, 2, 2, 1) 0%, rgba(0, 245, 12, 1) 55%, rgba(28, 3, 255, 1) 100%);
+}
+.welcome__block {
+	margin-bottom: 60px;
+	font-size: 18px;
+	line-height: 222%;
+	letter-spacing: -0.36px;
+	text-transform: capitalize;
+}
+.rolling {
+	max-width: 1150px;
+	margin: 0px auto;
+}
+.rolling__item:not(:last-child) {
+	margin-right: 60px;
+}
+.rolling__items {
+	margin: 0px auto;
+	font-size: 0;
+}
+
+.rolling__item {
+	display: inline-block;
+	font-family: "Orbitron", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 125%;
+}
+.rolling__item::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: 60px;
+	background: linear-gradient(90deg, rgba(245, 2, 2, 1) 0%, rgba(0, 245, 12, 1) 55%, rgba(28, 3, 255, 1) 100%);
+}
+
+/* ======================================================== */
+/* contact saction  */
+.contact__saction {
+	max-width: 100%;
+	background-color: #040303;
+	margin-bottom: 111px;
+}
+.contact__block {
+	max-width: 1272px;
+	margin: 0 auto;
+}
+.contact__item {
+	max-width: 959px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: -0.4px;
+	text-transform: capitalize;
+}
+.contact__item:hover {
+	text-decoration: underline;
+	color: rgba(211, 255, 255, 0.999);
+}
+.contact__item:not(:last-child) {
+	margin-right: 80px;
+}
+.call {
+}
+.call::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url(../img/call.svg);
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.location {
+}
+.location::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url(../img/location.svg);
+	margin-right: 20px;
+}
+.email {
+}
+.email::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url(../img/email.svg);
+	vertical-align: middle;
+	margin-right: 20px;
+}
+/* ============================================================= */
+.krovato {
+	max-width: 1070px;
+	margin: 0 auto;
+}
+.krovato > * {
+	margin-bottom: 3.55%;
+}
+.title_block {
+	margin-bottom: 3.55%;
+}
+
+.bad {
+	font-size: 40px;
+	line-height: 48px;
+}
+.room {
+	align-items: center;
+	max-width: 100%;
+	border-radius: 8px;
+}
+.hallway {
+	width: 100%;
+	max-width: 1070px;
+}
+.hallway_2 {
+}
+.hallway_3 {
+}
+
+.subtitle {
+	font-size: 20px;
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.item_krovato {
+	background: url(../img/nice.png) 0 0 / 27px no-repeat;
+	padding-left: 4.39%;
+}
+.item_krovato:not(:last-child) {
+	margin-bottom: 1.87%;
+}
+.hallway_text {
+	line-height: 30px;
+	min-height: 26px;
+}
+.krovato > *:last-child {
+	margin-bottom: 0px;
+}
+
+.lesson {
+	border: 2px solid rgb(11, 179, 114);
+	border-radius: 15px;
+	background-color: rgba(83, 177, 224, 0.63);
+	padding: 0px 10px;
+}
+.link {
+	background-color: #6c1cd5;
+	padding: 12px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	color: aliceblue;
+}
+.link span {
+	display: inline-block;
+	background: url("../img/hat.png") 0 0 no-repeat;
+	padding-left: 34px;
+}
+.link_1 {
+	font-size: 24px;
+	color: chartreuse;
+	border: 2px solid rgb(0, 0, 0);
+	background-color: rgb(39, 11, 200);
+}
+.link_1:hover {
+	color: crimson;
+	text-decoration: underline;
+	background-color: #229aa5;
+	background-size: cover;
+}
+.link_2:active {
+	background-color: blue;
+}
+.link_3:focus-visible {
+	outline: 2px solid rgb(190, 18, 18);
+	background-color: brown;
+}
+.link_4 {
+	visibility: hidden;
+}
+.page:hover .link_4 {
+	visibility: inherit;
+	font-size: 20px;
+}
+.link_5:visited {
+	background-color: aqua;
+}
+.show:hover {
+	text-decoration: underline;
+}
+.text {
+	display: none;
+}
+.text:target {
+	display: inline-block;
+}
+.text_p span:first-child {
+	color: rgb(209, 14, 14);
+}
+.text_p p:first-of-type {
+	color: green;
+}
+.text_p p:last-of-type {
+	text-decoration: underline;
+}
+.text_p p:nth-child(4) {
+	color: darkblue;
+}
+.text_p p:nth-child(2n + 5) {
+	color: rgb(21, 17, 243);
+}
+.text_p {
+	display: block;
+	max-width: 1920px;
+	border-radius: 5px;
+	border: 2px solid #8b3dff;
+}
+/* .text_p:has(span) {
+	color: brown;
+} */
+p {
+	margin-bottom: 30px;
+}
+p:last-child {
+	margin-bottom: 0px;
+}
+.article > * {
+	margin-bottom: 15px;
+}
+.title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+.content {
+	line-height: 1.4;
+}
+.button {
+	background-color: #a3f107;
+	border-radius: 5px;
+	padding: 12px;
+	color: #2b2929;
+	font-size: 24px;
+}
+.button:hover {
+	background-color: #cef57f;
+}
+.article > *:last-child {
+	margin-bottom: 0px;
+}
+.bif {
+	color: #fff;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.bif::before {
+	content: "";
+}
+.item::before {
+	content: "";
+	background: url(../img/hat.png) 0 0 / 100% no-repeat;
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.item:hover::before {
+	opacity: 0.5;
+}
+/* ========================================================= */
+/* ========================================================= */
+/* main block saction game */
+.game__wrapper {
+	min-width: 100%;
+	height: 100%;
+	background-color: #fff;
+	overflow: auto;
+	padding: 10px 0;
+}
+.game__container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: url(../img/kosmos_fon_sinij_73340_1600x1200.jpg) center / 100%;
+	border-radius: 1%;
+}
+.game {
+	text-align: center;
+	min-height: 650px;
+	text-align: initial;
+	margin-top: 30px;
+	font-size: 0;
+}
+.game__line {
+	background-color: rgb(64, 18, 231);
+}
+.game__line-1 {
+	width: 60px;
+	height: 60px;
+}
+.game__line-2 {
+	width: 60px;
+	height: 50px;
+}
+.game__line-1:hover + .game__line-2,
+.game__line-2:hover {
+	width: 700px;
+}
+.game__line-3 {
+	width: 650px;
+	height: 50px;
+	display: inline-block;
+}
+.game__line-3-1 {
+	visibility: hidden;
+	width: 50px;
+	height: 50px;
+}
+.game__line-2:hover ~ .game__line-3-1,
+.game__line-3-1:hover {
+	display: inline-block;
+	visibility: visible;
+}
+.game__line-3-1:hover {
+	height: 100px;
+}
+.game__line-4-1 {
+	display: inline-block;
+	visibility: hidden;
+	height: 50px;
+	width: 50px;
+}
+.game__line-3-1:hover ~ .game__line-4 {
+	display: inline-block;
+	width: 650px;
+	height: 50px;
+}
+.game__line-3-1:hover ~ .game__line-4-1,
+.game__line-4-1:hover {
+	visibility: visible;
+	display: inline-block;
+}
+.game__line-4-1:hover {
+	width: 380px;
+	margin-left: 325px;
+}
+.game__line-5 {
+	width: 20px;
+	height: 300px;
+	visibility: hidden;
+	margin-left: 30%;
+}
+.game__line-4-1:hover ~ .game__line-5 {
+	visibility: visible;
+	height: 20px;
+}
+.game__line-5:hover {
+	visibility: visible;
+	height: 300px;
+	margin-left: 30%;
+}
+.game__line-6 {
+	visibility: hidden;
+	height: 20px;
+	width: 20px;
+	background-color: rgba(18, 225, 32, 0.862);
+	margin-left: 30%;
+}
+.game__line-5:hover ~ .game__line-6,
+.game__line-6:hover {
+	visibility: visible;
+}
+.game__line-6:hover {
+	width: 10%;
+	height: 100px;
+	background-color: #a3f107;
+	color: #fff;
+}
+.game-img {
+	visibility: hidden;
+	text-align: center;
+	height: 500px;
+}
+.game__line-6:hover ~ .game-img,
+.game-img:hover {
+	visibility: visible;
+	background: url(../img/welldonemyfrend.jpg) 0 0 / 50% no-repeat;
+}
+/* ========================================================= */
+/* Оформлення вітальні */
+.footer {
+	max-width: 100%;
+	height: 100%;
+}
