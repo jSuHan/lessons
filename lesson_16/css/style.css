@@ -754,7 +754,7 @@ body {
 		justify-content: flex-start;
 	}
 	.search-middle-row__input::placeholder {
-		/* visibility: hidden; */
+		visibility: hidden;
 	}
 	.search-middle-row {
 		width: 100%;
